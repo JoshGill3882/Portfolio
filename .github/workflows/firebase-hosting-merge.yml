@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Clean Install
-        uses: npm ci
+        run: npm ci
 
       - name: Build Repo
         run: npm run build
