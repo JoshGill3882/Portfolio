@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    name: Check Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -20,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Clean Install
-        uses: npm ci
+        run: npm ci
 
       - name: Build Repo
         run: npm run build
@@ -51,9 +52,22 @@ jobs:
     name: Deploy To Firebase Hosting
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+
+      - name: Clean Install
+        run: npm ci
+
+      - name: Build Repo
+        run: npm run build
+
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
+          entryPoint: .
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_9D3B6 }}'
           channelId: live
