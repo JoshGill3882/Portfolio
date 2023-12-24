@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Check Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -48,10 +48,22 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/portfolio:v0
 
   deploy-to-firebase:
-    needs: push-backup
+    needs: build
     name: Deploy To Firebase Hosting
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+
+      - name: Clean Install
+        run: npm ci
+
+      - name: Build Repo
+        run: npm run build
+
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
