@@ -7,13 +7,11 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
+        <Heading as="h1" className="hero__title"> JoshGill.dev </Heading>
+        <p className="hero_subtitle"> Welcome to my Portfolio </p>
       </div>
     </header>
   );
@@ -25,6 +23,7 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        {/* Stuff in here - "About Me" section? Experiences - work timeline?*/}
       </main>
     </Layout>
   );
