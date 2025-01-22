@@ -62,7 +62,11 @@ const config: Config = {
           position: 'left',
           label: 'Portfolio',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           href: 'https://github.com/JoshGill3882',
           label: 'GitHub',
