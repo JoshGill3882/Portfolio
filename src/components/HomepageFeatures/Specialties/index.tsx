@@ -12,7 +12,7 @@ type Specialty = {
 const SpecialtyList: Specialty[] = [
   {
     title: "Easy to Use",
-    imagePath: require("@site/static/img/docusaurus.png").default,
+    imagePath: require("@site/static/img/specialties/docusaurus.png").default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -22,7 +22,7 @@ const SpecialtyList: Specialty[] = [
   },
   {
     title: "Focus on What Matters",
-    imagePath: require("@site/static/img/docusaurus.png").default,
+    imagePath: require("@site/static/img/specialties/docusaurus.png").default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -32,7 +32,7 @@ const SpecialtyList: Specialty[] = [
   },
   {
     title: "Powered by React",
-    imagePath: require("@site/static/img/docusaurus.png").default,
+    imagePath: require("@site/static/img/specialties/docusaurus.png").default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
