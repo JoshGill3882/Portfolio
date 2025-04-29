@@ -4,6 +4,7 @@ on:
     branches:
       - production
 
+      
 jobs:
   build:
     name: Check Build
@@ -20,6 +21,7 @@ jobs:
 
       - name: Build Repo
         run: npm run build
+
 
   push-backup:
     needs: build
@@ -42,6 +44,7 @@ jobs:
           push: true
           tags: joshgill3882/portfolio:v0
   
+
   deploy:
     needs: push-backup
     name: Deploy to Firebase
