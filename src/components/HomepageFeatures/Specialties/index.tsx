@@ -3,13 +3,13 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-type FeatureItem = {
+type Specialty = {
   title: string;
   imagePath: string;
   description: ReactNode;
 };
 
-const FeatureList: FeatureItem[] = [
+const SpecialtyList: Specialty[] = [
   {
     title: "Easy to Use",
     imagePath: require("@site/static/img/docusaurus.png").default,
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, imagePath, description }: FeatureItem) {
+function Feature({ title, imagePath, description }: Specialty) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
@@ -56,12 +56,12 @@ function Feature({ title, imagePath, description }: FeatureItem) {
   );
 }
 
-export function HomepageFeatures(): ReactNode {
+export function Specialties(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {SpecialtyList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>

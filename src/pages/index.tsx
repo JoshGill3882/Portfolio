@@ -5,7 +5,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import { HomepageFeatures } from '../components/HomepageFeatures';
+import { Specialties } from "../components/HomepageFeatures/Specialties";
 
 function HomepageHeader() {
   return (
@@ -20,11 +20,10 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   return (
-    <Layout
-      description="Description will go into a meta tag in <head />">
+    <Layout description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <Specialties />
       </main>
     </Layout>
   );
