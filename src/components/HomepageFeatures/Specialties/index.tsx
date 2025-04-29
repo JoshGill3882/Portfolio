@@ -46,7 +46,7 @@ function Feature({ title, imagePath, description }: Specialty) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <img className={styles.featureSvg} src={imagePath} alt={title} />
+        <img className={styles.specialtyImg} src={imagePath} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -58,8 +58,9 @@ function Feature({ title, imagePath, description }: Specialty) {
 
 export function Specialties(): ReactNode {
   return (
-    <section className={styles.features}>
+    <section className={styles.specialties}>
       <div className="container">
+        <h2>My Specialties</h2>
         <div className="row">
           {SpecialtyList.map((props, idx) => (
             <Feature key={idx} {...props} />
