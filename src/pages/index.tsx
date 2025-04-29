@@ -5,7 +5,7 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
-import { Specialties } from "../components/HomepageFeatures/Specialties";
+import { Specialties } from "../components/specialties";
 
 function HomepageHeader() {
   return (
