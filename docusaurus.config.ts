@@ -68,6 +68,11 @@ const config: Config = {
           position: 'left'
         },
         {
+          href: 'mailto:admin@joshgill.dev',
+          label: 'Contact',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/JoshGill3882',
           label: 'GitHub',
           position: 'right',
