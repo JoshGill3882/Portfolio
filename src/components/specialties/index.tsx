@@ -12,7 +12,7 @@ interface Specialty {
 const SpecialtyList: Specialty[] = [
   {
     title: "Professional Tools and Frameworks",
-    imagePath: require("@site/static/img/specialties/docusaurus.png").default,
+    imagePath: require("@site/static/img/specialties/professional-frameworks.png").default,
     description: (
       <>
         With expertise across multiple enterprise-grade ecosystems including
@@ -23,7 +23,7 @@ const SpecialtyList: Specialty[] = [
   },
   {
     title: "Cloud Native Proficiency",
-    imagePath: require("@site/static/img/specialties/docusaurus.png").default,
+    imagePath: require("@site/static/img/specialties/cloud-providers.png").default,
     description: (
       <>
         Architect of scalable cloud-native applications leveraging both AWS and
@@ -35,7 +35,7 @@ const SpecialtyList: Specialty[] = [
   },
   {
     title: "DevOps and CI/CD Implementation",
-    imagePath: require("@site/static/img/specialties/docusaurus.png").default,
+    imagePath: require("@site/static/img/specialties/devops.png").default,
     description: (
       <>
         DevOps practitioner skilled at implementing streamlined CI/CD pipelines that
