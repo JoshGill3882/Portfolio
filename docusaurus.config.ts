@@ -69,7 +69,7 @@ const config: Config = {
         },
         {
           href: 'mailto:admin@joshgill.dev',
-          label: 'Contact',
+          label: 'Contact Me',
           position: 'right',
         },
         {
