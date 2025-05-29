@@ -6,7 +6,7 @@ import { Specialty } from './specialty';
 
 
 const SpecialtyList: Specialty[] = [
-  {
+  { // Tools and Frameworks
     title: "Professional Tools and Frameworks",
     imagePath: require("@site/static/img/specialties/professional-frameworks.png").default,
     description: (
@@ -17,7 +17,8 @@ const SpecialtyList: Specialty[] = [
       </>
     ),
   },
-  {
+
+  { // Cloud Native
     title: "Cloud Native Proficiency",
     imagePath: require("@site/static/img/specialties/cloud-providers.png").default,
     description: (
@@ -29,7 +30,8 @@ const SpecialtyList: Specialty[] = [
       </>
     ),
   },
-  {
+
+  { // DevOps and CI/CD
     title: "DevOps and CI/CD Implementation",
     imagePath: require("@site/static/img/specialties/devops.png").default,
     description: (
@@ -41,6 +43,7 @@ const SpecialtyList: Specialty[] = [
     ),
   },
 ];
+
 
 function SpecialtyComponent({ title, imagePath, description }: Specialty) {
   return (
@@ -55,6 +58,7 @@ function SpecialtyComponent({ title, imagePath, description }: Specialty) {
     </div>
   );
 }
+
 
 export function Specialties(): ReactNode {
   return (
