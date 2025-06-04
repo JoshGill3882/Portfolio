@@ -3,13 +3,15 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import { HomepageHeader } from '../components/homepageHeader/homepageHeader';
+import { Interests } from '../components/interests/interests';
 import { Specialties } from "../components/specialties/specialties";
 
 export default function Home(): ReactNode {
   return (
-    <Layout description="Description will go into a meta tag in <head />">
+    <Layout>
       <HomepageHeader />
       <main>
+        <Interests />
         <Specialties />
       </main>
     </Layout>

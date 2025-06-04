@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
-import styles from "./index.module.css";
+import styles from "./homepageHeader.module.css";
 
 export function HomepageHeader() {
   return (
