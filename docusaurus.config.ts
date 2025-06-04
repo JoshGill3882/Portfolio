@@ -27,13 +27,13 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
-      {
+      'classic', {
         docs: {
           routeBasePath: 'portfolio',
           path: 'portfolio',
           sidebarPath: './sidebars.ts'
         },
+
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -45,6 +45,7 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -56,33 +57,38 @@ const config: Config = {
     navbar: {
       title: 'JoshGill.dev',
       items: [
-        {
+        { // Portfolio
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Portfolio',
         },
-        {
+
+        { // Blog
           to: '/blog',
           label: 'Blog',
           position: 'left'
         },
-        {
+
+        { // Contact Me
           href: 'mailto:admin@joshgill.dev',
           label: 'Contact Me',
           position: 'right',
         },
-        {
+
+        { // GitHub
           href: 'https://github.com/JoshGill3882',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
+
     footer: {
       style: 'dark',
       copyright: `Copyright © ${new Date().getFullYear()} Josh Gill, Built with Docusaurus.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
