@@ -3,7 +3,7 @@ name: Feature request
 about: Feature Request Template
 title: ''
 labels: feature
-assignees: ''
+assignees: JoshGill3882
 
 ---
 
