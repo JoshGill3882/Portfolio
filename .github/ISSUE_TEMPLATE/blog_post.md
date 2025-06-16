@@ -3,7 +3,7 @@ name: Blog Post
 about: Blog Post Template
 title: ''
 labels: blog
-assignees: ''
+assignees: JoshGill3882
 
 ---
 
