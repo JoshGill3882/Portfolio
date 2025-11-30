@@ -3,6 +3,11 @@ documentation:
   permalink: /documentation
   description: Whether it's tips for producing, maintaining, or even just my general thoughts about them, these articles are all about Documentation and my thoughts on the subject
 
+programming:
+  label: Programming
+  permalink: /programming
+  description: Articles focused on programming, coding practices, software development, and related topics in the tech world.
+
 ramblings:
   label: Ramblings
   permalink: /ramblings
@@ -12,10 +17,3 @@ responses:
   label: Responses
   permalink: /responses
   description: My replies to various articles, blog posts, or discussions that have caught my attention, providing my perspective and insights.
-
-programming:
-  label: Programming
-  permalink: /programming
-  description: Articles focused on programming, coding practices, software development, and related topics in the tech world.
-
-
