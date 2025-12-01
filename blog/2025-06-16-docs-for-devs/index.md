@@ -2,7 +2,7 @@
 slug: docs-for-devs
 title: Docs For Devs
 authors: jgill
-tags: [documentation]
+tags: [documentation, ramblings, programming]
 ---
 
 Whether it's best practices for producing; maintaining; or hosting Documentation, this article contains my thoughts originally voiced through a talk of the same name given at the Cardiff Software Meetup "Unified Diff" on the 5th of June 2025.
