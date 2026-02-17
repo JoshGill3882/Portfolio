@@ -6,8 +6,9 @@ export const interests: Interest[] = [
     title: "TECH",
     icon: "🔌",
     description: `
-       My interest in technology began with early experiments on early versions of the Raspberry Pi and Arduino, where I explored what could be built with a few lines of code and some curiosity.
-       This passion grew through education and personal projects, evolving into a focused enthusiasm for back-end systems, infrastructure design and devops workflows.
+      My interest in technology began with early experiments on early versions of the Raspberry Pi and Arduino, where I explored what could be built with a few lines of code and some curiosity.
+      
+      This passion grew through education and personal projects, evolving into a focused enthusiasm for back-end systems, infrastructure design and devops workflows.
     `,
   },
 
@@ -16,8 +17,9 @@ export const interests: Interest[] = [
     title: "TRAVEL",
     icon: "✈️",
     description: `
-       I’ve always been excited by the opportunity to see more of the world and experience new cultures.
-       Some of my favorite travel memories include exploring the landscapes of New Zealand, the history of Rome and Athens, and spending a month as a counselor at an American summer camp.
+      I’ve always been excited by the opportunity to see more of the world and experience new cultures.
+      
+      Some of my favorite travel memories include exploring the landscapes of New Zealand, the history of Rome and Athens, and spending a month as a counselor at an American summer camp.
     `,
   },
 
@@ -26,8 +28,9 @@ export const interests: Interest[] = [
     title: "CARS",
     icon: "🚗",
     description: `
-       Growing up watching Top Gear instilled a lasting love for cars and everything automotive.
-       In recent years, that passion has deepened, especially through following motorsports — with Formula 1 being a particular fascination.
+      Growing up watching Top Gear instilled a lasting love for cars and everything automotive.
+      
+      In recent years, that passion has deepened, especially through following motorsports — with Formula 1 being a particular fascination.
     `,
   },
 
@@ -36,8 +39,9 @@ export const interests: Interest[] = [
     title: "GAMING",
     icon: "🎮",
     description: `
-       Gaming has been a central part of my downtime since childhood, offering everything from competitive challenge to narrative immersion.
-       During university, my interest expanded to include board games and trading card games, both for their strategic depth and the social connections they foster.
+      Gaming has been a central part of my downtime since childhood, offering everything from competitive challenge to narrative immersion.
+      
+      During university, my interest expanded to include board games and trading card games, both for their strategic depth and the social connections they foster.
     `,
   },
 
@@ -46,8 +50,9 @@ export const interests: Interest[] = [
     title: "CLIMBING",
     icon: "🧗",
     description: `
-       Climbing is one of my more recent passions, with bouldering offering both physical challenge and mental problem-solving.
-       I especially enjoy the shared sense of progress at the climbing gym — working on tough routes, sharing tips, and celebrating each other's victories.
+      Climbing is one of my more recent passions, with bouldering offering both physical challenge and mental problem-solving.
+      
+      I especially enjoy the shared sense of progress at the climbing gym — working on tough routes, sharing tips, and celebrating each other's victories.
     `,
   },
 
@@ -56,8 +61,9 @@ export const interests: Interest[] = [
     title: "HISTORY",
     icon: "🏰",
     description: `
-       I’ve always been captivated by history, whether exploring the architectural grandeur of British castles or tracing connections across mythologies like those of the Greeks, Romans, and Norse.
-       I find real value in understanding the stories and systems that shaped the world we live in today.      
+      I’ve always been captivated by history, whether exploring the architectural grandeur of British castles or tracing connections across mythologies like those of the Greeks, Romans, and Norse.
+      
+      I find real value in understanding the stories and systems that shaped the world we live in today.      
     `,
   },
 ];
