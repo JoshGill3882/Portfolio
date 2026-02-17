@@ -76,7 +76,11 @@ export function Interests(): ReactNode {
                     ✕{" "}
                   </button>
                 </div>
-                <p>{selectedInterest.description}</p>
+                {selectedInterest.description
+                  .split(/\n\s*\n/)
+                  .map((para) => para.trim())
+                  .filter(Boolean)
+                  .map((para, i) => (<p key={i}>{para}</p>))}
               </div>
             ) : (
               <div className={styles.emptyState}>
@@ -134,7 +138,13 @@ export function Interests(): ReactNode {
                 </button>
               </div>
               <div className={styles.mobileOverlayContent}>
-                <p>{selectedInterest.description}</p>
+                {selectedInterest.description
+                  .split(/\n\s*\n/)
+                  .map((para) => para.trim())
+                  .filter(Boolean)
+                  .map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
               </div>
             </div>
           )}
